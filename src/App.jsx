@@ -18,7 +18,7 @@ const slightlyReducedFontSize = parseInt(defaultFontSize) * 0.9 + 'px';
 
 const AppContainer = styled.div`
   box-sizing: border-box;
-  font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: ${lineHeight};
   font-size: ${defaultFontSize};
   background-color: ${colorMajor};
