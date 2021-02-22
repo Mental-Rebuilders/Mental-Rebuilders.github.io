@@ -34,6 +34,7 @@ const AppContainer = styled.div`
 `;
 
 const ContentPanel = styled.main`
+  min-height: 100vh;
   background-color: ${colorMinor};
   color: ${colorFont};
   overflow-wrap: break-word;
@@ -65,10 +66,10 @@ function App() {
   return (
     <AppContainer>
       <ContentPanel>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<h1>Loading...</h1>}>
           <Content />
         </Suspense>
-        <NoteSection>Blog and Social Network are currently being built. Check back later for updates<br /><CheckBackLaterLink target="_blank" href="">Return to organization home page</CheckBackLaterLink>
+        <NoteSection>Blog and Social Network are currently being built. Check back later for updates<br /><CheckBackLaterLink target="_blank" href="https://github.com/Mental-Rebuilders">Return to organization home page</CheckBackLaterLink>
         </NoteSection>
       </ContentPanel>
     </AppContainer>
